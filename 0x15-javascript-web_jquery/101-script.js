@@ -7,6 +7,7 @@ $('document').ready(() => {
     $('UL.my_list li:last').remove();
   });
 
+  
   $('DIV#clear_list').click(() => {
     $('UL.my_list').empty();
   });
