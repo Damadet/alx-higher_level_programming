@@ -9,6 +9,7 @@ $('document').ready(() => {
   });
 });
 
+
 function translate () {
   const endpoint = 'https://www.fourtonfish.com/hellosalut/?lang=';
   const lang = $('INPUT#language_code').val();
